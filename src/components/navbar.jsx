@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-r from-blue-800 to-purple-800 text-cyan-300 px-6 py-4 flex justify-around items-center">
+    <nav className="bg-gradient-to-r from-cyan-900 to-cyan-950 text-cyan-300 px-6 py-4 flex justify-around items-center">
       {/* Logo */}
       <div className="text-4xl font-bold">
         RUTH<span className="text-purple-400">.</span>
@@ -25,9 +25,12 @@ const Navbar = () => {
         })}
       </div>
 
-      <button className="bg-blue-600 px-4 py-2 font-bold rounded hover:bg-blue-700 flex items-center">
+      <Link
+        to="/contact-me"
+        className="bg-white text-black px-4 py-2 font-bold rounded hover:bg-primary flex items-center"
+      >
         HIRE ME <BsPerson className="ml-2" />
-      </button>
+      </Link>
     </nav>
   );
 };

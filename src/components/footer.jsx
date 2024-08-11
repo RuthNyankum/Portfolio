@@ -1,18 +1,23 @@
 import { FaGithub, FaHeart, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import ruth from '../assets/images/Ruth.jpg';
+import ruth from '../assets/images/ruth.jpg';
 import { BsTwitterX } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 py-8 relative">
+    <footer className="bg-cyan-950 py-8 relative border-t-primary border-2">
       <div className="container mx-auto text-center">
         {/* Profile Image */}
-        <div className="absolute inset-x-0 top-[-40px] flex justify-center">
+        {/* <div className="absolute inset-x-0 top-[-40px] flex justify-center">
           <img
             src={ruth}
             alt="Profile"
-            className="rounded-full h-20 w-20 border-4 border-blue-700"
+            className="rounded-full h-24 w-24 border-2 border-primary"
           />
+        </div> */}
+        <div className="absolute inset-x-0 top-[-65px] flex justify-center  ">
+          <div className=" flex items-center justify-center border-2 border-primary h-28 w-28 bg-gray-700 rounded-full">
+            <img src={ruth} alt="Profile" className="rounded-full h-24 w-24 " />
+          </div>
         </div>
 
         {/* Name */}
@@ -27,28 +32,28 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="text-white text-2xl hover:text-blue-500 transition duration-300" />
+            <FaGithub className="text-white text-2xl hover:text-primary transition duration-300" />
           </a>
           <a
             href="https://x.com/ruth_nanarain"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsTwitterX className="text-white text-2xl hover:text-blue-500 transition duration-300" />
+            <BsTwitterX className="text-white text-2xl hover:text-primary transition duration-300" />
           </a>
           <a
             href="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="text-white text-2xl hover:text-blue-500 transition duration-300" />
+            <FaInstagram className="text-white text-2xl hover:text-primary transition duration-300" />
           </a>
           <a
             href="https://www.linkedin.com/in/ruthnyankum/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-white text-2xl hover:text-blue-500 transition duration-300" />
+            <FaLinkedin className="text-white text-2xl hover:text-primary transition duration-300" />
           </a>
         </div>
 
