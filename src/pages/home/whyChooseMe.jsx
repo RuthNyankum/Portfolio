@@ -10,8 +10,8 @@ const WhyChooseMe = () => {
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-[90rem] mx-auto border-4 border-primary flex">
         <div>
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold mb-4">Why Choose Us</h2>
-            <p className="mb-4">
+            <h2 className="text-3xl font-bold mb-4">Why Choose Me</h2>
+            <p className="mb-4 text-lg">
               I bring a solid understanding of React and JavaScript to the
               table, which means I can build interactive and scalable
               applications that deliver a great user experience. I focus on
@@ -24,13 +24,13 @@ const WhyChooseMe = () => {
             <h2 className="text-3xl font-bold mb-4">
               Create New Opportunities with Me
             </h2>
-            <p className="mb-4">
+            <p className="mb-4 text-lg">
               I’m dedicated to getting every detail right and believe in clear,
               open communication throughout the development process. By
               collaborating closely with you, I make sure your vision comes to
               life and your project goals are achieved.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-lg">
               Let’s create new opportunities together! I bring a fresh
               perspective and a hands-on approach to frontend development with
               React and JavaScript. By working with me, you’ll tap into

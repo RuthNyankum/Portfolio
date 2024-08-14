@@ -14,16 +14,13 @@ const Bio = () => {
             <p className="mb-4">
               I’m a frontend developer who’s passionate about React and
               JavaScript. I enjoy turning complex ideas into sleek,
-              user-friendly web applications. My goal is to create designs that
-              are not only visually appealing but also function flawlessly on
-              any device. With my experience in React, I build high-performance
-              apps that really make an impact.
+              user-friendly web applications.
             </p>
 
             <p>
-              I’m dedicated to staying current with the latest trends and
-              technologies to deliver cutting-edge solutions. My focus is on
-              creating seamless user experiences that engage and delight users.
+              My goal is to create designs that are not only visually appealing
+              but also function flawlessly on any device. With my experience in
+              React, I build high-performance apps that really make an impact.
             </p>
           </div>
           {/* Let's Work Together Section */}
@@ -38,7 +35,7 @@ const Bio = () => {
             </p>
             <p>
               Let’s combine our efforts to build something exceptional and make
-              your project shine.
+              your project standout.
             </p>
           </div>
         </div>

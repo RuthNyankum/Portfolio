@@ -20,3 +20,16 @@
     animation: fadeInOut 2s infinite;
   }
   
+
+  
+  .modal {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }

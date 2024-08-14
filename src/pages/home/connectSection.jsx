@@ -4,7 +4,7 @@ import { BsTwitterX } from 'react-icons/bs';
 
 const ConnectSection = () => {
   return (
-    <div className="bg-gray-900 p-8 rounded-lg shadow-lg font-poppins-regular">
+    <div className="bg-gray-900 p-8 shadow-lg font-poppins-regular">
       <div className="border-4 border-primary max-w-[80rem] mx-auto py-24 rounded-3xl">
         <div className="text-center mb-4">
           <div className="w-32 h-24 mx-auto mb-7">
@@ -20,7 +20,8 @@ const ConnectSection = () => {
             Glad to start a project with you.
           </h2>
           <p className="text-gray-400 mt-2 text-[1.5rem]">
-            Feel free to reach out if you need help or you want to connect!
+            Feel free to reach out if you're looking for a great website or just
+            want to connect!
           </p>
         </div>
         <div className="flex justify-center space-x-6 mt-4">
