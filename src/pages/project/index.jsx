@@ -178,12 +178,13 @@
 
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-import img1 from '../../assets/images/ruth.jpg'; // Replace with your image paths
+import img1 from '../../assets/images/restaurant.png'; // Replace with your image paths
 import img2 from '../../assets/images/ruth.jpg';
-import img3 from '../../assets/images/ruth.jpg';
+import img3 from '../../assets/images/ite.png';
 import img4 from '../../assets/images/ruth.jpg';
-import img5 from '../../assets/images/ruth.jpg';
-import img6 from '../../assets/images/ruth.jpg';
+import img5 from '../../assets/images/mindfulness.png';
+import img6 from '../../assets/images/studio.png';
+studio.png;
 
 // Set the app element for react-modal
 Modal.setAppElement('#root');
@@ -227,7 +228,7 @@ const Projects = () => {
       url: 'https://carelink.netlify.app/',
       image: img2,
       description:
-        'A comprehensive healthcare platform that allows patients to book appointments and manage their health records.',
+        'A comprehensive healthcare platform that allows patients to book appointments and manage their profile.',
       preview: 'https://carelink.netlify.app/', // URL to be embedded
     },
     {
@@ -244,22 +245,24 @@ const Projects = () => {
       image: img4,
       description:
         'A personal portfolio website that highlights skills, projects, and experiences in web development.',
-      preview: 'https://carelink.netlify.app/', // URL to be embedded
+      preview: 'https://rteg.netlify.app/dashboard', // URL to be embedded
     },
     {
-      title: 'E-commerce Site',
+      title: 'Haven of Mindulness',
+      ///CHANKGE GITHUB AND
       url: 'https://github.com/yourusername/ecommerce-site.git',
       image: img5,
       description:
-        'An e-commerce platform for selling products online, featuring a user-friendly interface and secure payment options.',
+        'Haven of Mindfulness is an online platform offering guided meditation, wellness articles, and calming products to help users achieve peace and balance in their lives.',
       preview: 'https://carelink.netlify.app/', // URL to be embedded
     },
     {
-      title: 'Social Media App',
+      title: 'Ruths Studio',
+      //CHANGE IT
       url: 'https://github.com/yourusername/social-media-app.git',
       image: img6,
       description:
-        'A social media application that connects users, allowing them to share posts, chat, and follow each other.',
+        "Ruth's Frame of Mind showcases a collection of art, design projects, and photography, highlighting unique styles and creative processes.",
       preview: 'https://carelink.netlify.app/', // URL to be embedded
     },
   ];
