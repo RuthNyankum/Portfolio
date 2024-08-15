@@ -29,7 +29,7 @@ const About = () => {
                 <h2 className="text-lg text-white ">ABOUT ME</h2>
               </div>
 
-              <div className="text-4xl font-bold text-primary mb-5 overflow-hidden">
+              <div className="text-3xl md:text-4xl font-bold text-primary mb-5 overflow-hidden">
                 <ReactTyped
                   strings={['Let work together.']}
                   typeSpeed={50}
@@ -46,32 +46,37 @@ const About = () => {
                 <img
                   src={ruth}
                   alt="Profile"
-                  className="w-[80%] h-[65vh] object-cover rounded-3xl border-2 mx-auto"
+                  className="w-[90%] md:w-[80%] h-[50vh] md:h-[65vh] object-cover rounded-3xl border-2 mx-auto"
                 />
               </div>
               {/* Text Section */}
               <div className="flex-1 p-6 text-center md:text-left md:w-1/2 mt-14">
-                <h1 className="text-2xl text-white">I'M FRONTEND DEVELOPER</h1>
+                <h1 className="text-xl md:text-2xl text-white">
+                  I'M FRONTEND DEVELOPER
+                </h1>
 
-                <p className="text-6xl font-bold text-white">RUTH NYANKUM</p>
-                <p className="mt-5 mb-2 text-lg">
+                <p className="text-4xl md:text-6xl font-bold text-white">
+                  RUTH NYANKUM
+                </p>
+                <p className="mt-5 mb-2 text-base md:text-lg">
                   I collaborate with innovators and experts who aspire to build
                   careers that are both intellectually rewarding and financially
                   fulfilling for their clients.
                 </p>
-                <p className="mb-7 text-lg">
-                  {' '}
+                <p className="mb-7 text-base md:text-lg">
                   My focus is on creating seamless user experiences that engage
                   and delight users.
                 </p>
-                {/* </div> */}
-                <div className="mb-6 text-lg">
+                <div className="mb-6 text-base md:text-lg">
                   <p className="flex items-center gap-3 mb-2">
                     <span>Address:</span> Alhaji-Tabora, Accra-Ghana
                   </p>
                   <p className="flex items-center gap-3 mb-2">
                     <span>Email:</span>
-                    <a href="mailto:nana.nyankum99@gmail.com" className=" pl-7">
+                    <a
+                      href="mailto:nana.nyankum99@gmail.com"
+                      className="pl-7 break-all"
+                    >
                       nana.nyankum99@gmail.com
                     </a>
                   </p>

@@ -16,16 +16,17 @@ const ConnectSection = () => {
               muted
             />
           </div>
-          <h2 className="text-[3rem] text-primary font-bold">
+          <h2 className="text-3xl text-primary font-bold">
             Glad to start a project with you.
           </h2>
-          <p className="text-gray-400 mt-2 text-[1.5rem]">
+          <p className="text-gray-400 mt-2 text-lg">
             Feel free to reach out if you're looking for a great website or just
             want to connect!
           </p>
         </div>
-        <div className="flex justify-center space-x-6 mt-4">
-          <div className="flex gap-2">
+
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-4">
+          <div className="flex items-center gap-2">
             <a
               href="https://x.com/ruth_nanarain"
               className="text-cyan-400 hover:text-cyan-300"
@@ -34,10 +35,10 @@ const ConnectSection = () => {
             >
               <BsTwitterX className="w-6 h-6" />
             </a>
-            <span className="text-white">Twiter</span>
+            <span className="text-white">Twitter</span>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <a
               href="https://github.com/RuthNyankum"
               className="text-cyan-400 hover:text-cyan-300"
@@ -49,7 +50,7 @@ const ConnectSection = () => {
             <span className="text-white">Github</span>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <a
               href="https://www.linkedin.com/in/ruthnyankum/"
               className="text-cyan-400 hover:text-cyan-300"
@@ -58,12 +59,11 @@ const ConnectSection = () => {
             >
               <FaLinkedin className="w-6 h-6" />
             </a>
-            <span className="text-white">Linkedin</span>
+            <span className="text-white">LinkedIn</span>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <a
-              //   href="https://t.me/loves_snow"
               href="https://telegram.org"
               className="text-cyan-400 hover:text-cyan-300"
               target="_blank"
