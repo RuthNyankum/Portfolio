@@ -34,4 +34,19 @@
     background-color: rgba(0, 0, 0, 0.75);
   }
 
-  
+  /* App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+/* Optional: Add some padding or margins to content inside sections */
+.section > * {
+  padding: 20px; /* Adjust as necessary */
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: white; /* Change to your desired color */
+}

@@ -6,14 +6,6 @@ const Footer = () => {
   return (
     <footer className="bg-cyan-950 py-8 relative border-t-primary border-2">
       <div className="container mx-auto text-center">
-        {/* Profile Image */}
-        {/* <div className="absolute inset-x-0 top-[-40px] flex justify-center">
-          <img
-            src={ruth}
-            alt="Profile"
-            className="rounded-full h-24 w-24 border-2 border-primary"
-          />
-        </div> */}
         <div className="absolute inset-x-0 top-[-65px] flex justify-center  ">
           <div className=" flex items-center justify-center border-2 border-primary h-28 w-28 bg-gray-700 rounded-full">
             <img src={ruth} alt="Profile" className="rounded-full h-24 w-24 " />

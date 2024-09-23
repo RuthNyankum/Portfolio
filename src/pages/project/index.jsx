@@ -6,8 +6,7 @@ import img3 from '../../assets/images/ite.png';
 import img4 from '../../assets/images/ruthfolio.png';
 import img5 from '../../assets/images/mindfulness.png';
 import img6 from '../../assets/images/studio.png';
-import ConnectSection from '../home/connectSection';
-import PagesLayout from '../../components/pagesLayout';
+import Achievements from '../skills/achievements';
 
 // Set the app element for react-modal
 Modal.setAppElement('#root');
@@ -91,16 +90,10 @@ const Projects = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4 font-poppins-regular">
-        <PagesLayout title="My Project Journey" subtitle="Explore My Work" />
-        <div className="text-center mb-12 mt-28">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-primary">
-            Explore My Work Portfolio <br /> and Simplify Your Workflow
+        <div className="text-center mb-12 ">
+          <h1 className="text-2xl sm:text-4xl md:text-3xl font-bold mb-4 text-primary">
+            Explore My Work Portfolio
           </h1>
-
-          <p className="text-lg text-gray-400">
-            I’m passionate about building effective solutions and improving
-            processes <br /> to help you get things done more efficiently.
-          </p>
         </div>
 
         {/* Projects Grid */}
@@ -121,25 +114,6 @@ const Projects = () => {
                   />
                 </div>
               </div>
-
-              {/* TEXT TRUNCATION APPROACH */}
-              {/* <div className="flex flex-col items-center md:items-start md:w-1/2 p-2">
-              <p className="text-center md:text-left text-xl font-semibold mt-1">
-                {project.title}
-              </p>
-              <a
-                href={project.url}
-                className="text-blue-400 mt-1 text-xs truncate w-full"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ maxWidth: '100%' }}
-              >
-                {project.url}
-              </a>
-              <p className="text-sm mt-2 text-center md:text-left">
-                {project.description}
-              </p>
-            </div> */}
 
               {/* TEXT WRAPPING APPROACH */}
               <div className="flex flex-col items-center md:items-start md:w-1/2 p-2">
@@ -213,8 +187,8 @@ const Projects = () => {
             </div>
           </Modal>
         )}
-        <ConnectSection />
-        <div className="my-16 bg-gray-900"></div>
+
+        <Achievements />
       </div>
     </>
   );

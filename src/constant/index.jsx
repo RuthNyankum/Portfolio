@@ -9,6 +9,10 @@ const N = {
       path: '/about-me',
     },
     {
+      name: 'Skills',
+      path: '/skills',
+    },
+    {
       name: 'Projects',
       path: '/projects',
     },

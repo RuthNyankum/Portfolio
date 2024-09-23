@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../../src/index.css';
+import '../../index.css';
 import Select from 'react-select';
 import countryList from 'react-select-country-list';
 
@@ -15,14 +15,14 @@ const ContactMe = () => {
     <div className="flex flex-col md:flex-row justify-center items-center p-4 md:p-10 font-poppins-regular gap-10 bg-gray-900">
       {/* Text Section */}
       <div className="flex flex-col justify-center items-start w-full md:w-1/2 lg:w-1/3 mt-8 md:mt-0">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <p className="h-4 w-4 rounded-full fade-in-out bg-primary"></p>
           <h2 className="text-lg md:text-xl lg:text-2xl text-white">
             GET IN TOUCH
           </h2>
         </div>
 
-        <h1 className="text-primary font-bold text-xl md:text-2xl lg:text-3xl mt-4">
+        <h1 className="text-primary  text-xl md:text-2xl lg:text-3xl mt-4">
           Got a project in mind? I’d love to get involved!
         </h1>
 
@@ -43,7 +43,7 @@ const ContactMe = () => {
       </div>
 
       {/* Form Section */}
-      <form className="bg-gray-800 p-8 md:p-10 lg:p-12 rounded-lg shadow-lg w-full md:w-1/2 lg:w-1/3 mt-10 mb-20 border-primary border-2">
+      <form className="bg-gray-800 p-4 md:p-10 lg:p-12 rounded-lg shadow-lg w-full md:w-1/2 lg:w-1/3 mb-20 border-primary border-2">
         <div className="mb-4">
           <label className="block text-gray-400 text-sm md:text-base lg:text-lg">
             Full Name
